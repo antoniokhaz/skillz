@@ -16,7 +16,7 @@ puts ''
 while yearsBetween.to_i >= starting.to_i
 	yearsBetween = yearsBetween - 1  
 
-	if yearsBetween%4 == 0
+	if yearsBetween%4 == 0 && yearsBetween%100 != 0
 		
 		leapYear = yearsBetween.to_i
 		puts '- ' + leapYear.to_s + ' is a leap year'
