@@ -1,6 +1,6 @@
 words = []
 
-puts 'Hello, want to see tome alphabetical magic?!'
+puts 'Hello, want to see some alphabetical magic?!'
 puts
 puts 'Write however many words you want (one per line).'
 puts 'When you\'re done, just press enter, and watch the magic happen.'
