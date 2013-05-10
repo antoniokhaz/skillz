@@ -15,7 +15,7 @@ while true
 		oldRoman.push('D'*dTimes)
 
 		cTimes = inputNum % 500 / 100
-		oldRoman.push('D'*cTimes)
+		oldRoman.push('C'*cTimes)
 
 		lTimes = inputNum % 100 / 50
 		oldRoman.push('L'*lTimes)
@@ -39,6 +39,5 @@ while true
 	# if inputNum == 'exit'
 	#	puts 'OK, see ya next time!'
 		break
-	
-end
 
+end
