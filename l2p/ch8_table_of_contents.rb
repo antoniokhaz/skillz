@@ -16,4 +16,3 @@ chapters.each do |ch|
 
 	puts left.ljust(line_width/2) + right.rjust(line_width/2)
 end
-

@@ -16,7 +16,6 @@ while true
 		puts 'No words? OK, see ya next time!'
 		break	
 	end
-
 		
 	if input == ''
 		puts 'Here are the words you gave me in alphabetical order:'

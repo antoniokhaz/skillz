@@ -12,7 +12,7 @@ while newBeers > 2
 	
 end
 
-while newBeers <= 2
+if newBeers <= 2
 	puts newBeers.to_s + ' Bottles of Beer on the wall'
 	puts newBeers.to_s + ' Bottles of Beer'
 	puts 'You take one down and pass it around'
@@ -24,5 +24,4 @@ while newBeers <= 2
 	puts 'You take one down and pass it around'
 	newBeers = newBeers - 1
 	puts newBeers.to_s + ' Bottles of Beer on the wall'
-	break
 end
